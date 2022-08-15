@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-paragraph bg-gray-200;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-black font-primary;
+  }
+  .section {
+    @apply py-12 lg:py-12;
+  }
+  .section-title {
+    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
+  }
+  .subtitle {
+    @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
+  }
+  .btn {
+    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
+  }
+  .btn-lg {
+    @apply h-[54px];
+  }
+  .btn-md {
+    @apply h-[48px];
+  }
+  .input {
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;
+  }
+  .textarea {
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
+  }
+  .active {
+    @apply text-accent;
+  }
+}
+.btn-orange {
+font-size: 16px;
+color: #fff;
+
+width: 175px;
+height: 48px;
+
+/* 2-user */
+
+background: #F26522;
+/* black */
+
+border: 2px solid #882b00;
+/* btn */
+
+box-shadow: 3px 3px 0px #882b00;
+border-radius: 6px;
+}
+.btn-orange:hover {  
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 0px #000000;
+}
+
+.btn-white {
+  font-size: 16px;
+  color: #000;
+  
+  width: 175px;
+  height: 48px;
+  
+  /* 2-user */
+  
+  background: #ffff;
+  /* black */
+  
+  border: 2px solid #646464;
+  /* btn */
+  
+  box-shadow: 3px 3px 0px #696969;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-white:hover {  
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 0px #000000;
+}
+
+.bg-rgba {
+  background-color: rgba(0,0,0,.3);
+}
