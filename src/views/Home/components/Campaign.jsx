@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 
 import Banner from "../../../assets/banners/banner.png";
-import MultiCarousel from "../../../Components/Carousel/MultiCarousel";
+import MultiCarousel from "../../../commons/Carousel/MultiCarousel";
 
 const Campaign = () => {
   const campaign = useSelector((state) => state.data.campaign);

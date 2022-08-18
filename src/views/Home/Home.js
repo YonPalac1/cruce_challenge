@@ -1,22 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
-import Benefits from "../../Components/Benefits/Benefits";
 import Brands from "./components/Brands";
+import Season from "./components/Season";
 import ToyOfTheDay from "./components/ToyOfTheDay";
 import MostWanted from "./components/MostWanted";
 import Offer from "./components/Offer";
 import Campaign from "./components/Campaign";
-
-import Season from "../../Components/Season/Season";
-import MultiCarousel from "../../Components/Carousel/MultiCarousel";
-import Buttons from "../../Components/Buttons/Buttons";
-import TopBanner from "../../Components/Alert/TopBanner";
 import Whatsapp from "./components/Whatsapp";
-import Alert from "../../Components/Alert/Alert";
+
+// Commons
+import Benefits from "../../commons/Benefits/Benefits";
+import MultiCarousel from "../../commons/Carousel/MultiCarousel";
+import Buttons from "../../commons/Buttons/Buttons";
+import TopBanner from "../../commons/Alert/TopBanner";
+import Alert from "../../commons/Alert/Alert";
+import Footer from "../../commons/Footer/Footer";
 
 import { brands } from "../../data";
-import Footer from "../../Components/Footer/Footer";
 
 export const Home = () => {
   const newsToys = useSelector((state) => state.data.toys);

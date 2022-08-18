@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // import components
 import Nav from "./Nav";
-import NavMobile from "./NavMobile";
 import SearchIcon from "../Search/SearchIcon";
 import ShoppingIcon from "./ShoppingCartIcon";
 import { Search } from "../Search/Search";

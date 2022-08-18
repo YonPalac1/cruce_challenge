@@ -11,7 +11,7 @@ const Cart = () => {
       {backdrop && (
         <>
           <Backdrop />
-          <div className="bg-white overflow-y-scroll overflow-auto section fixed right-0 bottom-0 top-24 px-3 z-9">
+          <div className="bg-white overflow-y-scroll overflow-auto section fixed right-0 bottom-0 top-24 px-3 index-10">
             {toysOnCart.length ? toysOnCart.map((item) => {
               return (
                 <section className="p-5 flex">

@@ -1,11 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Footer from '../../Components/Footer/Footer'
 
 import Banner from './components/Banner'
 import Filters from './components/Filters'
 import KeywordSearch from './components/KeywordSearch'
 import Productos from './components/Productos'
+
+import Footer from '../../commons/Footer/Footer'
 
 const List = () => {
   const key = useSelector(state => state.data.keywords);

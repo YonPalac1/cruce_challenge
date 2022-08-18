@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import Producto from "../../../Components/Productos/Producto";
 import Pagination from "./Pagination";
+
+import Producto from "../../../commons/Productos/Producto";
 
 const Productos = () => {
   const toys = useSelector((state) => state.data.toys);

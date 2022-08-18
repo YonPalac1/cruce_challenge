@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Cart from '../Components/Cart/Cart';
-import Header from '../Components/Header/Header';
+
 import Details from '../views/Details/Details';
 import { Home } from '../views/Home/Home';
 import List from '../views/List/List';
+
+import Cart from '../commons/Cart/Cart';
+import Header from '../commons/Header/Header';
 
 const AppRouter = () => {
     return (

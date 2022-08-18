@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Bebas Neue',
+      primary: 'Patua One',
       body: 'Inter',
     },
     fontSize: {

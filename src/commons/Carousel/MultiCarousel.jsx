@@ -25,7 +25,7 @@ const MultiCarousel = ({ item, title }) => {
 
   return (
     <div>
-    <h2>{ title }</h2>
+    <h2 className="text-[32px] ml-4 md:text-[27px]">{ title }</h2>
       <Carousel
         responsive={responsive}
         arrows={false}

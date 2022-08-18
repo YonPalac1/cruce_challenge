@@ -1,10 +1,11 @@
 import React from "react";
 import { FiChevronRight } from "react-icons/fi";
 import { useLocation } from "react-router-dom";
-import Accordion from "../../../Components/Accordion/Accordion";
+
+import Accordion from "../../../commons/Accordion/Accordion";
 
 const Filters = () => {
-  const location = useLocation().pathname; //
+  const location = useLocation().pathname;
 
   const values = [
     {

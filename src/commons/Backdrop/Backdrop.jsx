@@ -12,7 +12,7 @@ const Backdrop = () => {
     <>
         <div
           onClick={closeBackdrop}
-          className="fixed w-full h-full z-8 bg-rgba"
+          className="fixed w-full h-full index-5 bg-rgba"
         ></div>
     </>
   );
